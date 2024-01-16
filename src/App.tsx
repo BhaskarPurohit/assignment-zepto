@@ -1,6 +1,6 @@
-import React, {  FC } from 'react';
+import React, { KeyboardEvent, FC } from 'react';
 import "./App.css"
-
+import ReactDOM from 'react-dom';
 import ChipInputComponent from './ChipInputComponent';
 
 // interface TagsInputProps {
@@ -47,9 +47,9 @@ import ChipInputComponent from './ChipInputComponent';
 // };
 
 const App: FC = () => {
-  // const selectedTags = (tags: string[]) => {
-  //   console.log(tags);
-  // };
+  const selectedTags = (tags: string[]) => {
+    console.log(tags);
+  };
 
   return (
     <div className="App">
